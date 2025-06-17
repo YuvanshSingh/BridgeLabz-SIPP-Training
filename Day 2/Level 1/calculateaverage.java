@@ -1,4 +1,4 @@
-public class calculateaverage {
+public class CalculateAverage {
 
 	public static void main(String[] args) {
 		int Math_marks = 94;

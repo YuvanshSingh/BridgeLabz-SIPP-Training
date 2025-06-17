@@ -1,4 +1,4 @@
-public class feecalculator {
+public class FeeCalculator {
 
 	public static void main(String[] args) {
 		

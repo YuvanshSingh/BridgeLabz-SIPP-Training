@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class feecalculator2 {
+public class FeeCalculator2 {
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
 
