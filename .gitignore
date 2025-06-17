@@ -30,25 +30,6 @@ replay_pid*
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# IDE - Eclipse
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-
-# IDE - IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-out/
-
 # Maven
 target/
 pom.xml.tag
