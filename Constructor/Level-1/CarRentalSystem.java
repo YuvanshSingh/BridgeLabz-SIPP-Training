@@ -29,7 +29,6 @@ class CarRental{
 public class CarRentalSystem {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		CarRental rental2 = new CarRental();
         System.out.println("Default Rental Details:");
         rental2.displayDetails();
