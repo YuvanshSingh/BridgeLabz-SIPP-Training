@@ -71,3 +71,5 @@ public class UniversityManagement {
         pgStudent.displayPGDetails();
     }
 }
+
+// BridgeLabz
