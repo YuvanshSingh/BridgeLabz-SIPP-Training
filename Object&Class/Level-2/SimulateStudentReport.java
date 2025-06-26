@@ -26,7 +26,6 @@ class Students{
 public class SimulateStudentReport {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Students student = new Students("aditya", 3 , 70);
 		student.displaydetails();
 
