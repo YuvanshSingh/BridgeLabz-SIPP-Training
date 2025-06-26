@@ -20,7 +20,6 @@ class items{
 public class TrackInventoryOfItems {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		items Items = new items(101, "perfume", 100.0 );
 		Items.displaydetails();
