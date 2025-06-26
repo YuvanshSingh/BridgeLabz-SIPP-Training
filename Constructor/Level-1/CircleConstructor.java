@@ -19,7 +19,6 @@ class Circle{
 public class CircleConstructor {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Circle defaultCircle = new Circle();
         System.out.println("Circle with Default Radius:");
         defaultCircle.displayDetails();
