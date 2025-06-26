@@ -15,7 +15,6 @@ class Employee{
 public class EmployeeDetails {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Employee employee = new Employee("aditya", 454545L, 300000);
 		employee.DisplayEmpolyeeDetails();
 
