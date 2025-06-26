@@ -17,7 +17,6 @@ class MobilePhone{
 public class HandleMobilePhoneDetails {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		MobilePhone mobile1 = new MobilePhone("Samsung", "S23", 54000);
 		MobilePhone mobile2 = new MobilePhone("realme", "narzo", 14000);
 		
