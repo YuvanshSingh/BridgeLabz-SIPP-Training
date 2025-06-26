@@ -44,5 +44,6 @@ public class OnlineClassManagement {
         c1.displayCourseDetails();
         c2.displayCourseDetails();
     }
+// BridgeLabz
 }
 
