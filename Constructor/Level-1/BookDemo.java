@@ -23,7 +23,6 @@ class Book{
 public class BookDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Book defaultConstructor = new Book();
 		System.out.println("--default--");
 		defaultConstructor.displayDetails();
