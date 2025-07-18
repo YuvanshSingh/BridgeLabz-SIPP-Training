@@ -38,7 +38,6 @@ class MusicPlayer {
 class MediaPlayer extends MusicPlayer {
 }
 
-// Main class
 public class MusicPlaylistQueue {
     public static void main(String[] args) {
         MusicPlayer player = new MusicPlayer();
