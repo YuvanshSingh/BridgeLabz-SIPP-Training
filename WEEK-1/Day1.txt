@@ -1,0 +1,135 @@
+Pseudo Class Day1
+
+~ Odd/Even Number :
+
+Start
+   Input: an integer
+   if number mod 2 equals to 0
+   print "Even"
+   else 
+   print "Odd"
+
+# Pseudo-code Problems - Day 1
+1. Java OOPs
+
+1. Pet Adoption App
+○ Design classes for Pet, Dog, Cat, and Bird. Use inheritance and constructors
+to initialize them.
+
+soln- 
+Start
+class Pet:
+
+Attribute name
+Attribute age
+
+Constructor (name, age)
+Set this.name=name
+Set this.age=age
+
+Method display():
+Print name
+Print age
+
+class Dog extends Pet
+Attribute isTrained
+
+Constructor (name,age,isTrained)
+super(name,age)
+Set this.isTrained=IsTrained
+
+Method display():
+super.display
+print IsTrained
+
+class Cat extends Pet:
+Attribute color
+
+Constructor(name,age,color):
+super(name,age)
+set this.color = color
+
+Method display():
+super.display()
+Print color
+
+Class Birds extends Pet
+Attribute wingspan
+
+Constructor(name,age,wingSpan):
+super(name,age)
+set this.wingSpan = wingspan
+
+Method display():
+super.display()
+Print wingspan
+
+Class Main:
+Create Dog(Bruno, 3, True)
+Create Cat(Kitty, 2, White)
+Create Bird(Mitthu, 1, Medium)
+
+Call display() on all
+End
+
+2. Library Membership Tracker
+○ Create a class Member with attributes like name, ID, membership date. Add
+methods to check membership validity.
+
+soln-
+Start
+Class Member:
+Attribute name
+Attribute memberId
+Attribute membershipDate
+Attribute validTillDate
+
+Constructor(name, memberId, membershipDate, validTillDate):
+Set this.name = name
+Set this.memberId = memberId
+Set this.membershipDate = membershipDate
+Set this.validTillDate = validTillDate
+
+Method checkValidity(currentDate):
+If currentDate <= validTillDate
+Print Membership Active
+Else
+Print Membership Expired
+
+Main:
+Create Member(Alice, 101, 01-01-2024, 31-12-2024)
+Call checkValidity(20-08-2025)
+End
+
+2. Data Structures & Algorithms
+
+1. Undo Feature in Text Editor
+○ Use a Stack to store undo operations and implement revert functionality.
+
+soln-
+Start
+Class TextEditor:
+Attribute text      
+Attribute history   
+
+Method write(newText)
+Push current text into history
+text = text + newText
+
+Method undo()
+If history is not empty
+text = Pop from history
+Else
+text = ""
+
+Method showText()
+Print text
+
+Main
+Create object editor of TextEditor
+editor.write("Hello ")
+editor.write("World")
+editor.showText()  
+editor.undo()
+editor.showText()  
+End
