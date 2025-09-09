@@ -1,2 +1,0 @@
-hello world of java 
-here we are study java streams
